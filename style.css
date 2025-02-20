@@ -20,33 +20,34 @@ header{
     font-size: 20px;
 }
 
-.profile-row{
-    grid-template-rows: max-content;
-    /* width:fit-content; */
-    flex-direction: row;
-}
-
 .profile{
+    background-color: lightblue;
+    
     width: 200px;
-    height: 400px;
-    box-shadow: 10px 10px 20px gray;
+    height: 300px;
+
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px darkcyan;
 }
 
 .profile-img{
     justify-content: center;
     align-items: center;
-    max-width: 100%;
-    border: solid red;
 }
 
 .profile-img img{
     object-fit: fill;
+    border-radius: 5px;;
 }
 
 .profile-desc{
     position: relative;
     top: 0;
-
-    border: solid blue;
     text-align: center;
+}
+
+.profile-desc p{
+    height: 50px;
+    align-items: center;
 }
